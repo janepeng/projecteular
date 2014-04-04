@@ -25,7 +25,7 @@ def sum(array, addie):
 def main():
   temp = [0 for x in xrange(50)]
    
-  with open('input.txt') as f:
+  with open('input13.txt') as f:
     for line in f:
       line = line.rstrip()
       addie = []
